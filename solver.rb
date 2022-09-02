@@ -1,41 +1,25 @@
 class Solver
+  def factorial(number)
+    return 1 if number.zero?
+    return 'Please enter a positive integer' if number.negative?
 
-    def factorial(n)
-        if n == 0
-            return 1
-        end
-        if n < 0
-            return "Please enter a positive integer"
-        end
-        n * factorial(n-1)
-    end
+    number * factorial(number - 1)
+  end
 
-    # reverse method
-    def reverse(string)
-        if string == ''
-            return string
-        end
-        return string.reverse
-    end
+  # reverse method
+  def reverse(string)
+    return string if string == ''
 
-    def fizzbuzz(number)
-        
-        if(number % 3 == 0 && number % 5 == 0)
-            return "fizzbuzz"
-        end
+    string.reverse
+  end
 
-        if(number % 3 == 0)
-            return "fizz"
-        end
+  def fizzbuzz(number)
+    return 'fizzbuzz' if (number % 3).zero? && (number % 5).zero?
 
-        if(number % 5 == 0)
-            return "buzz"
-        end
+    return 'fizz' if (number % 3).zero?
 
-        
+    return 'buzz' if (number % 5).zero?
 
-        return number
-
-    end
-
+    number
+  end
 end

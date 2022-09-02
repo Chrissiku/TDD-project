@@ -1,56 +1,59 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# TDD Project
 
-> Description the project.
+> This project is an implementation of a class with some methods, but implemented by doing test-driven development (TDD). 
+Here the idea is to write tests first and then the code.
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
-
+- Major languages : `Ruby`
+- Frameworks : `Rspec`
+- Technologies used : `Git`, `Gitflows`, `Github`, `Rubocop` and `Rubygem`
 
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
+- Have a computer and internet connection
+- Have `Ruby` installed on your computer
+- Have a basic knowledge of `Ruby` and `OOP` concept
+- Have a general understanding of what testing is
+- Have `visual-studio code` or any other code editor installed on your computer.
 
 ### Setup
-
+- In order to get a copy of this project you need to download it from https://github.com/Chrissiku/TDD-project
+- Extract the zipped file and open it in your code editor
 ### Install
-
-### Usage
-
+- Run the command bellow in your terminal to get all required files
+```
+bundle install
+```
 ### Run tests
-
-### Deployment
-
-
-
+you can run one of the following command in your terminal
+1. Run testing
+```Ruby
+rspec spec
+```
+2. Run linters
+```Ruby
+> Rubocop --color
+> Rubocop -A
+```
 ## Authors
 
-👤 **Author1**
+👤 **Chris Siku**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/Chrissiku)
+- Twitter: [@twitterhandle](https://twitter.com/christian_siku)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/chris-siku-4bb53b232/)
 
-👤 **Author2**
+👤 **NabilHY**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: https://github.com/NabilHY
+- Twitter: https://twitter.com/NeoNabil2
+- LinkedIn: https://www.linkedin.com/in/nabil-hayoun/
 
 ## 🤝 Contributing
 
@@ -64,9 +67,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- To Microvese
+- FreeCodecamp tutorials
 
 ## 📝 License
 
