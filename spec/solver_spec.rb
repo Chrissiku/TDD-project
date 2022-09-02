@@ -28,6 +28,7 @@ describe 'Solver' do
         end
     end
 
+    # Test the reverse method
     describe '#reverse' do
         it "If string is hello, return olleh" do
             string = "hello"
@@ -43,7 +44,26 @@ describe 'Solver' do
             string = ""
             expext(@solver.reverse(string)).to eq("")
         end
+    end
 
+    # Test the fizzbuzz method
+    describe '#fizzbuzz' do
+        it "If number is divisible by 3, return fizz" do
+            number = 3
+            expect(@solver.fizzbuzz(number)).to eq("fizz")
+        end
+        it "If number is divisible by 5, return buzz" do
+            number = 5
+            expect(@solver.fizzbuzz(number)).to eq("buzz")
+        end
+        it "If number is divisible by 3 and 5, return fizzbuzz" do
+            number = 15
+            expect(@solver.fizzbuzz(number)).to eq("fizzbuzz")
+        end
+        it "If number is not divisible by 3 or 5, return the number" do
+            number = 7
+            expect(@solver.fizzbuzz(number)).to eq(7)
+        end
     end
 
 end
