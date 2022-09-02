@@ -1,4 +1,5 @@
 require 'yaml'
+require_relative '../solver.rb'
 
 describe 'Solver' do
     # Create a new Solver object for each test
