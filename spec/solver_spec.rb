@@ -37,13 +37,13 @@ describe 'Solver' do
         end
 
         it "If string is morning, return gninrom" do
-            string = "hello"
+            string = "morning"
             expect(@solver.reverse(string)).to eq('gninrom')
         end
 
-        it "If string is empty reutn nil" do
+        it "If string is empty return nil" do
             string = ""
-            expext(@solver.reverse(string)).to eq("")
+            expect(@solver.reverse(string)).to eq("")
         end
     end
 
